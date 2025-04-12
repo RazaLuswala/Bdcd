@@ -20,6 +20,8 @@ setInterval(updateCountdown, 1000);
 
 // Daily messages (from April 15 to May 4)
 const messages = {
+    "4/13": "Every thing turns to gold by your touch !",
+    "4/14": "No girl can outshine you, those moons get light from you !",
     "4/15": "You're one of the kindest souls I've ever met.",
     "4/16": "Your presence makes ordinary days special.",
     "4/17": "Every chat with you brightens my mood.",
