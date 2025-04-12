@@ -13,7 +13,7 @@ function updateCountdown() {
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    countdown.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s until her birthday!`;
+    countdown.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s until this beautiful person's birthday!`;
 }
 
 setInterval(updateCountdown, 1000);
