@@ -33,15 +33,15 @@ const messages = {
     "4/23": "Your words stay with me longer than you know.",
     "4/24": "You make even silence feel warm.",
     "4/25": "You're more special than I can put into words.",
-    "4/26": "You carry light within you.",
-    "4/27": "May you always smile like you deserve to.",
-    "4/28": "You're a rare bouquet of grace and strength.",
-    "4/29": "Your presence is peace in itself.",
-    "4/30": "Even the stars envy your glow.",
+    "4/26": "You carry light within you that no sun can match.",
+    "4/27": "May you always smile like you deserve to, may the entire world serve you with love u deserve.",
+    "4/28": "You're a rare bouquet of grace and strength, dimond is inspired by you.",
+    "4/29": "Your presence is peace itself, we can write Rimsha instead of peace.",
+    "4/30": "Even the stars envy your glow, coz they can't shine like your eyes.",
     "5/1":  "Your friendship is a gift I’ll never take for granted.",
     "5/2":  "Thank you for existing the way you do.",
-    "5/3":  "One day left for the most special soul to celebrate.",
-    "5/4":  "Happy Birthday, Rimsha! The world is better with you in it. 🎉"
+    "5/3":  "May you receive the bestest wishes and love in the upcoming year, One day left for the most special soul to celebrate.",
+    "5/4":  "Happy Birthday 🎂🎈🎉🌟✨, Rimsha👑! The countdown is now over, as the Greatest & Kindest Queen's special day is here. The world is better with you in it, so be happy in this year and in every year of your life. 🎉"
 };
 
 function revealMessage() {
@@ -49,3 +49,4 @@ function revealMessage() {
     const key = `${today.getMonth() + 1}/${today.getDate()}`;
     messageBox.innerText = messages[key] || "A little too early... come back tomorrow 🌸";
 }
+7
